@@ -3,11 +3,11 @@
 #' The function allows you to view the past 20 years of stock data.
 #'
 #'
-#' @param from The starting date you would like to view
-#' @param to The ending date you would like to view
-#' @param stock_symbol The stock symbol of a company
+#' @param from The starting date you would like to view as a string in "YYYY-MM-DD" format
+#' @param to The ending date you would like to view as a string in "YYYY-MM-DD" format
+#' @param stock_symbol The String of the stock symbol of a company
 #' @param view_type An integer that represents 1 = open, 2 = high, 3 = low, 4 = close, or 5 = volume stock data
-#' @param apikey Default is to use the apikey using the assign_apikey function
+#' @param apikey Default is to use the apikey using the assign_apikey function. A String of the apikey
 #'
 #'
 #' @return A dataframe of one column with the dates and another column with the stock data
